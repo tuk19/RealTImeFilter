@@ -1,0 +1,51 @@
+body {
+    margin: 0px;
+}
+
+.content {
+    padding: 0px 15px;
+}
+
+#input_text {
+    width: 100%;
+    height: 25px;
+    font-size: 20px;
+    border: 2px solid #56f;
+}
+
+.flex_img {
+    display: flex;
+    width: auto;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px 15px;
+}
+
+.keyword_list {
+    display: flex;
+    margin-left: 15px;
+}
+
+.keyword {
+    margin-right: 15px;
+}
+
+.keyword_box {
+    margin-bottom: -3px;
+    margin-left: 15px;
+}
+
+.filter_img {
+    margin-bottom: 10px;
+    border: 0.1px solid ;
+}
+
+.show_img {
+    text-align: center;
+}
+
+img {
+    margin-top: 10px;
+    width: 95%;
+}

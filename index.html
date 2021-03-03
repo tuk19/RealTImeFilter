@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>RealTimeFilter</title>
+        <link rel="stylesheet" href="main.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>  <!-- jqueryで実装する場合 -->
+    </head>
+    <body>
+        <div class="content">
+            <h3>リアルタイムフィルター</h3>
+            <p>入力した文字を含まない要素は非表示となります</p>
+            <input type="text" id="input_text">
+            <div class="flex_img">
+                <div class="filter_img">
+                    <div class="show_img"><img src="img/baseball.jpg", alt="野球場"></div>
+                    <p class="keyword_box">キーワード</p>
+                    <div class="keyword_list">
+                        <p class="keyword">野球場</p>
+                        <p class="keyword">やきゅうじょう</p>
+                        <p class="keyword">yakyuujou</p>
+                    </div>
+                </div>
+                <div class="filter_img">
+                    <div class="show_img"><img src="img/castle.jpg", alt="城"></div>
+                    <p class="keyword_box">キーワード</p>
+                    <div class="keyword_list">
+                        <p class="keyword">城</p>
+                        <p class="keyword">しろ</p>
+                        <p class="keyword">siro</p>
+                    </div>
+                </div>
+                <div class="filter_img">
+                    <div class="show_img"><img src="img/orca.jpg", alt="シャチ"></div>
+                    <p class="keyword_box">キーワード</p>
+                    <div class="keyword_list">
+                        <p class="keyword">シャチ</p>
+                        <p class="keyword">しゃち</p>
+                        <p class="keyword">syachi</p>
+                    </div>
+                </div>
+                <div class="filter_img">
+                    <div class="show_img"><img src="img/rainbow.jpg", alt="虹"></div>
+                    <p class="keyword_box">キーワード</p>
+                    <div class="keyword_list">
+                        <p class="keyword">虹</p>
+                        <p class="keyword">にじ</p>
+                        <p class="keyword">niji</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="main.js" charset="UTF-8"></script>
+    </body>
+</html>
